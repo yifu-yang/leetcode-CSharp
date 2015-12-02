@@ -1,7 +1,7 @@
 public class Solution {
     Dictionary<int, int> dict = new Dictionary<int, int>();
         public int ClimbStairs(int n)
-        {
+        {    
             if (n == 1)
             {
                 return 1;
@@ -9,15 +9,15 @@ public class Solution {
             else if (n == 2)
             {
                 return 2;
-            }
-            else 
+            } 
+            else
             {
                 int step1 = 0;
                 if (dict.ContainsKey(n - 1))
                 {
                     step1 = dict[n - 1];
                 }
-                else 
+                else
                 {
                     dict.Add(n - 1, ClimbStairs(n - 1));
                     step1=ClimbStairs(n - 1);
