@@ -71,6 +71,7 @@
     <Compile Include="58.cs" />
     <Compile Include="61.cs" />
     <Compile Include="62.cs" />
+    <Compile Include="66.cs" />
     <Compile Include="7.cs" />
     <Compile Include="70.cs" />
     <Compile Include="8.cs" />
