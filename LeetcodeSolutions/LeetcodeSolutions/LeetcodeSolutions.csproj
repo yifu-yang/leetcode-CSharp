@@ -70,6 +70,7 @@
     <Compile Include="36.cs" />
     <Compile Include="387.cs" />
     <Compile Include="389.cs" />
+    <Compile Include="396.cs" />
     <Compile Include="48.cs" />
     <Compile Include="58.cs" />
     <Compile Include="61.cs" />
